@@ -6,4 +6,34 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="bee.png" />
+    <None Remove="cat.png" />
+    <None Remove="cow.png" />
+    <None Remove="dog.png" />
+    <None Remove="fox.png" />
+    <None Remove="hen.png" />
+    <None Remove="horse.png" />
+    <None Remove="lion.png" />
+    <None Remove="owl.png" />
+    <None Remove="panda.png" />
+    <None Remove="snake.png" />
+    <None Remove="whale.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="bee.png" />
+    <Resource Include="cat.png" />
+    <Resource Include="cow.png" />
+    <Resource Include="dog.png" />
+    <Resource Include="fox.png" />
+    <Resource Include="hen.png" />
+    <Resource Include="horse.png" />
+    <Resource Include="lion.png" />
+    <Resource Include="owl.png" />
+    <Resource Include="panda.png" />
+    <Resource Include="snake.png" />
+    <Resource Include="whale.png" />
+  </ItemGroup>
+
 </Project>
